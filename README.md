@@ -267,7 +267,7 @@ def singleNum(nums):
     return functools.reduce(lambda x, y: x^y, nums)
 ```
 
-###Gray Code
+### Gray Code
 
 The **reflected binary code** (**RBC**), also known just as **reflected binary** (**RB**) or **Gray code** after [Frank Gray](https://en.wikipedia.org/wiki/Frank_Gray_(researcher)), is an ordering of the [binary numeral system](https://en.wikipedia.org/wiki/Binary_numeral_system) such that two successive values differ in only one [bit](https://en.wikipedia.org/wiki/Bit) (binary digit).
 
