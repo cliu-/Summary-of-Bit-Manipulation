@@ -154,7 +154,7 @@ def my_abs(n):
 
 注意这种方法没用任何判断表达式.
 
-###计算二进制数中1的数量
+### 计算二进制数中1的数量
 
 给定一个十进制整数，计算这个整数对应的二进制数中1的数量。
 
@@ -196,7 +196,7 @@ def power_of_two(exponent):
     return 1<<exponent
 ```
 
-###Power of Four
+### Power of Four
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
@@ -214,7 +214,7 @@ def getSum(a, b):
     return a if b==0 else getSum(a^b, (a&b)<<1)
 ```
 
-###Missing Number
+### Missing Number
 
 Given an array containing *n* distinct numbers taken from `0, 1, 2, ..., n`, find the one that is missing from the array.
 
