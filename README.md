@@ -1,5 +1,3 @@
-[toc]
-
 # Summary-of-Bit-Manipulation
 
 ## 位运算基础
@@ -291,6 +289,7 @@ def singleNumber(nums):
 ```
 **Complexity:**
 Time: O (n)
+
 Space: O (1)
 
 **Explaination:**
@@ -327,4 +326,5 @@ def countBits(num):
 
 **Complexity:**
 Time: O (n)
+
 Space: O (n)
