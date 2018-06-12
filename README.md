@@ -1,3 +1,5 @@
+[toc]
+
 # Summary-of-Bit-Manipulation
 
 ## 位运算基础
@@ -308,4 +310,21 @@ def grayCode(num):
     return num ^ (num >> 1)
 ```
 
+### Counting Bits
+Given a non negative integer number num. For every numbers i in the range 0 ≤ i ≤ num calculate the number of 1's in their binary representation and return them as an array.
 
+**Example:**
+For num = 5 you should return [0,1,1,2,1,2].
+
+**Solution**
+```python
+def countBits(num):
+    dp=[0]*(num+1)
+    for i in range(1,num+1):
+        dp[i]=dp[i>>1]+(i&1)
+    return dp
+```
+
+**Complexity:**
+Time: O (n)
+Space: O (n)
